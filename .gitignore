@@ -55,6 +55,12 @@ desktop.ini
 *.sqlite3
 *.db
 
+# Data & Uploads
+data/uploads/*
+!data/uploads/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
 # Frontend
 node_modules/
 .next/
